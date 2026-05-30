@@ -1,0 +1,22 @@
+# Source + build tooling are kept local, not published (binary-only repo)
+src/
+build.bat
+requirements.txt
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+
+# ROMs and sprites — copyright; never commit these
+*.sfc
+*.smc
+*.zspr
+
+# OS cruft
+Thumbs.db
+.DS_Store
